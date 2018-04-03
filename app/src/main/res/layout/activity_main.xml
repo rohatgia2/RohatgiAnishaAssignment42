@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rohat.rohatgianishaassignment42.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Find Synonym/Antonym"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="37dp" />
+
+    <EditText
+        android:id="@+id/searchWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter a word (ex. Cold)"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="62dp" />
+
+    <Button
+        android:id="@+id/enterValues"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:onClick="onButtonClick"
+        android:text="Enter Values" />
+
+    <Button
+        android:id="@+id/viewAntonym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewAntonym"
+        android:text="View Antonym" />
+</LinearLayout>
